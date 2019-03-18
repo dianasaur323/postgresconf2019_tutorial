@@ -1,9 +1,12 @@
-# Part 1: Getting started with TimescaleDB
+# Part 1: Installing TimescaleDB
 ## Install TimescaleDB
 
-For general install instructions, follow the steps outlined [here](https://docs.timescale.com/v0.12/getting-started/installation/).
+For install instructions, follow the steps outlined [here](https://docs.timescale.com/v1.2/getting-started/installation/).
 
-For Amazon AMI, follow the steps outlined [here](https://github.com/timescale/docs.timescale.com-content/pull/34/commits/f4859666f4ec820b50490f7a1626c00074633662).
+To access a running instance on Azure Database for PostgreSQL:
+`psql --host=azure-timescale.postgres.database.azure.com --port=5432 --username=test@azure-timescale --dbname=tutorial`
+
+Password = Tutorial2019
 
 ## Setup TimescaleDB
 
