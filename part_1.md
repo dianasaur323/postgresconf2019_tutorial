@@ -6,8 +6,6 @@ For install instructions, follow the steps outlined [here](https://docs.timescal
 To access a running instance on Azure Database for PostgreSQL:
 `psql --host=azure-timescale.postgres.database.azure.com --port=5432 --username=test@azure-timescale --dbname=tutorial`
 
-Password = Tutorial2019
-
 ## Setup TimescaleDB
 
 Run through the setup instructions [here](https://docs.timescale.com/v0.12/getting-started/setup).
